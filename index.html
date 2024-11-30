@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <link rel="stylesheet" href="style.css">
 </head>
+</head>
 <body>
     <header>
         <!-- Add logo content, could be a text or an image -->
@@ -31,19 +32,21 @@
                 <li><a href="#contact">Contact</a></li>
             </ul>
             <div class="social-icons">
-                <a href="#"><i class="fab fa-twitter"></i></a>
-                <a href="#"><i class="fab fa-github"></i></a>
-                <a href="#"><i class="fab fa-linkedin"></i></a>
-                <a href="#"><i class="fab fa-medium"></i></a>
+                <a href="https://wa.me/+8801307641048" target="_blank"><i class="fas fa-phone"></i></i></a>
+                <a href="https://x.com/_infyra"><i class="fab fa-twitter"></i></a>
+                <a href="https://github.com/infyraa"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/emtiazahmed11/"><i class="fab fa-linkedin"></i></a>
+                <a href="https://medium.com/@infyra"><i class="fab fa-medium"></i></a>
             </div>
         </nav>
 
         <!-- Desktop social icons -->
         <div class="social-icons">
-            <a href="#"><i class="fab fa-twitter"></i></a>
-            <a href="#"><i class="fab fa-github"></i></a>
-            <a href="#"><i class="fab fa-linkedin"></i></a>
-            <a href="#"><i class="fab fa-medium"></i></a>
+            <a href="https://wa.me/+8801307641048" target="_blank"><i class="fas fa-phone"></i></i></a>
+            <a href="https://x.com/_infyra"><i class="fab fa-twitter"></i></a>
+            <a href="https://github.com/infyraa"><i class="fab fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/emtiazahmed11/"><i class="fab fa-linkedin"></i></a>
+            <a href="https://medium.com/@infyra"><i class="fab fa-medium"></i></a>
         </div>
     </header>
     
@@ -51,25 +54,26 @@
     <div class="hero">
         <div class="hero-content">
             <h2>INFYRA</h2>
-            <p>Web dseigner | Bug-Bounty Hunter | Writer</p>
+            <p>Researcher | Hunter | Writer </p>
             <a href="#blogs" class="cta">Read My Blog</a>
         </div>
     </div>
 
     <!-- About Section -->
-    <section id="about">
-        <h2 style="font-family: monospace; font-size: 24px;">Who am I ?</h2>
+    <section id="about" class="hidden">
+        <h2 style="font-family: monospace; font-size: 24px;">$Whoami ?</h2>
         <div class="about">
             <div class="about-text">
-                <h2>Emtiaz Ahmed</h2>
-                <p>Hello! I'm Emtiaz, a Bug-Bounty Hunter with a passion for discovering vulnerabilities, solving complex challenges, and making the web a safer place. Join me in my journey of exploration and learning. Infyra is just my sybolic name</p>
+                <h2>EMTIAZ AHMED AKA INFYRA</h2>
+                <p>Hello! I'm Emtiaz, a Bug-Bounty Hunter with a passion for discovering vulnerabilities, solving complex challenges, and making the web a safer place. Join me in my journey of exploration and learning. Infyra is just my symbolic name.</p>
             </div>
             <div class="about-image">
                 <img src="pp.jpg" alt="Profile Picture">
             </div>
         </div>
     </section>
-
+    
+ 
     <!-- Blogs Section -->
     <section id="blogs">
         <h2>Weekly Blogs</h2>
@@ -80,9 +84,9 @@
 
 
 
-    <section class="Contact">
+    <section id="contact" class="Contact">
         <div class="contact-form">
-            <h2>Contact Me</h2>
+            <h2>Colab with Me</h2>
             <form id="contactForm">
                 <div class="input-container">
                     <input type="text" id="name" class="input-field" required>
@@ -104,50 +108,6 @@
             <p id="status"></p>
         </div>
     </section>
-
-<!-- 
-<section>
-    <h2>Suggested Books | If interested on Cybersec</h2>
-    <div class="grid-container">
-
-        <div class="card">
-            <img src="book1.jpg" alt="Book 1">
-            <div class="card-content">
-            </div>
-        </div>
-
-        <div class="card">
-            <img src="book2.jpg" alt="Book 2">
-            <div class="card-content">
-             
-            </div>
-        </div>
-  
-        <div class="card">
-            <img src="book3.jpg" alt="Book 3">
-            <div class="card-content">
-            </div>
-        </div>
-
-        <div class="card">
-            <img src="book4.png" alt="Book 3">
-            <div class="card-content">
-            </div>
-        </div>
-        <div class="card">
-            <img src="book5.jpg" alt="Book 3">
-            <div class="card-content">
-            </div>
-        </div>
-    </div>
-</section> -->
-
- <!-- -------secure -->
-
- <script>
-
- </script>
-
 
  <script>
         document.addEventListener('contextmenu', event => event.preventDefault());
@@ -178,7 +138,7 @@ async function loadMediumBlogs() {
 
         // Check if the feed contains items
         if (data && data.items && data.items.length > 0) {
-            const blogsToShow = data.items.slice(0, 5); // Limit to the first 5 blogs
+            const blogsToShow = data.items.slice(0, 4); // Limit to the first 5 blogs
 
             // Loop through each blog and create HTML
             blogsToShow.forEach(blog => {
@@ -237,3 +197,4 @@ loadMediumBlogs();
     </script>
 </body>
 </html>
+
